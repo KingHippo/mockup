@@ -1,0 +1,9 @@
+body {
+	background-image: url(../images/bg.jpg);
+}
+
+/* NAVIGATION STYLES */
+.nav-list li a {
+	list-style: none;
+	background-image: url(../images/button.jpg);
+}
