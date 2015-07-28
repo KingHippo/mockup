@@ -3,7 +3,8 @@ body {
 }
 
 /* NAVIGATION STYLES */
-.nav-list li a {
+.nav-list li {
 	list-style: none;
 	background-image: url(../images/button.jpg);
+	margin-right: auto;
 }
