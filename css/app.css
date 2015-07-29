@@ -11,9 +11,7 @@ ul {
 ul li {
 	float: left;
 	width: 100px;
-	height: 30px;
-	line-height: 30px;
-	text-align: center;
+	text-align: left;
 }
 
 ul li a:hover{
@@ -24,9 +22,10 @@ ul li a {
 	text-decoration: none;
 }
 
-ul li li {
+.inline-list li {
 	display: none;
 }
+
 ul li li a {
 	text-decoration: none;
 }
