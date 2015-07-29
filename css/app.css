@@ -2,19 +2,19 @@ body {
 	background-image: url(../images/bg.png);
 }
 
-ul {
-	margin: 0;
-	padding: 0;
-	list-style: none;
-}
-
 ul li {
 	float: left;
 	width: 100px;
-	text-align: left;
+	display: inline;
 }
 
-ul li a:hover{
+/*ul li a{
+	float: left;
+	width: 100px;
+	display: inline;
+}*/
+
+img:hover{
 	background-image: url(../images/hover_button.png);
 }
 
@@ -22,10 +22,8 @@ ul li a {
 	text-decoration: none;
 }
 
-.inline-list li {
+ul li {
 	display: none;
-}
-
-ul li li a {
 	text-decoration: none;
+	list-style: none;
 }
