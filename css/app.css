@@ -1,10 +1,32 @@
 body {
-	background-image: url(../images/bg.jpg);
+	background-image: url(../images/bg.png);
 }
 
-/* NAVIGATION STYLES */
-.nav-list li {
+ul {
+	margin: 0;
+	padding: 0;
 	list-style: none;
-	background-image: url(../images/button.jpg);
-	margin-right: auto;
+}
+
+ul li {
+	float: left;
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+}
+
+ul li a:hover{
+	background-image: url(../images/hover_button.png);
+}
+
+ul li a {
+	text-decoration: none;
+}
+
+ul li li {
+	display: none;
+}
+ul li li a {
+	text-decoration: none;
 }
