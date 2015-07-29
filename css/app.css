@@ -8,12 +8,6 @@ ul li {
 	display: inline;
 }
 
-/*ul li a{
-	float: left;
-	width: 100px;
-	display: inline;
-}*/
-
 img:hover{
 	background-image: url(../images/hover_button.png);
 }
@@ -26,4 +20,8 @@ ul li {
 	display: none;
 	text-decoration: none;
 	list-style: none;
+}
+ul.button-group>li{
+	float: left;
+  display: inline-block;
 }
