@@ -21,7 +21,17 @@ ul li {
 	text-decoration: none;
 	list-style: none;
 }
-ul.button-group>li{
-	float: left;
-  display: inline-block;
+
+#logo {
+	padding-top: 49px;
+}
+
+#acct {
+	padding-top: 65px;
+	padding-right: 110px;
+	float: right;
+}
+
+#logo, #acct {
+	padding-bottom: 20px;
 }
